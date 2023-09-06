@@ -1,0 +1,201 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dflex{
+    /* display: flex; */
+    justify-content: center;
+    align-items: start;
+    /* height: 400vh; */
+}
+.drop_down{
+    justify-content: space-between;
+    margin-left: 200px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 500px;
+}
+.butt{
+    background-color: transparent;
+ display: flex;
+ align-items: center;
+ color: white;
+ border: none;
+}
+.butt4{
+    width: 70px;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    padding: 8px;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.897),rgba(0, 0, 0, 0));
+}
+.border{
+    border: 2px black solid;
+}
+.nav_main{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image1{
+    max-width: 80px;
+}
+.search_bar{
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.fi-rs-search{
+    font-size: 20px;
+}
+.buttn{
+    height: 40px;
+    background-color: red;
+    color: white;
+    width: 50px;
+     border: none;
+    /* margin-right: -8px; */
+}
+.search_bar input{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.border1{
+border: none;
+height: 30px;
+width: 250px;
+}
+.border2{
+    color: white;
+    display: flex;
+    align-items: center;
+    /* border: none; */
+    height: 35px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.border2:hover{
+    background-color: rgba(169, 169, 169, 0.801);
+}
+.fi-br-tally-1{
+    /* font-weight: 200; */
+    font-size: 25px;
+    color: rgba(169, 169, 169, 0.753);
+}
+.login{
+    background-color: transparent;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+}
+.signup{
+    background-color: red;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;    
+}
+.services{
+    color: white;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.entry{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.fi-sr-angle-small-down{
+    font-size: 18px;
+}
+.war{
+width: 100px;
+}
+.main_head{
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: blender 20s ease-out infinite;
+    box-sizing: border-box;
+}
+@keyframes blender{
+    0%,100%{
+        background-image: url(https://w0.peakpx.com/wallpaper/555/919/HD-wallpaper-toyota-supra-2019-rear-view-silver-sports-coupe-gr-supra-japanese-sports-cars-supra-mk5-toyota.jpg);
+    }
+   25%{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Belton_House_South_Elevation.jpg/800px-Belton_House_South_Elevation.jpg);
+       
+    }
+    50%{
+        background-image: url(https://cdn.wallpapersafari.com/95/0/AbcqVY.jpg);
+        
+    }
+    75%{
+        background-image: url(https://w0.peakpx.com/wallpaper/273/558/HD-wallpaper-2020-mclaren-speedtail-exterior-rear-view-hypercar-sunset-new-supercar-british-sports-cars-mclaren.jpg);
+        
+    }
+}
+.activities{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 900 bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card_container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    height: inherit;
+    width: 100%;
+    margin-top: 40px;
+    /* margin-left: 65px; */
+}
+.card{
+    height: 350px;
+    width: 350px;
+}
+.imgg{
+    border-radius: 200px;
+    max-width: 90px;
+}
+.img_row{
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+}
+.imgg1{
+    margin-top: -130px;
+}
+.name_row{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900 bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
